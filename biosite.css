@@ -9,6 +9,8 @@
 
 body{
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 .card-title{
@@ -75,33 +77,19 @@ h1{
 
 footer{
 	background-color: #6E6D00;
-	position: absolute;
-	text-align: right;
-	bottom: 0;
+	flex-shrink: 0;
 	width: 100%;
+	margin-top: 10px;
+	border-top: 2px solid black;
+	height: 30px;
 }
 
-footer p{
-	color: white;
-	font-weight: 400;
-	float: right;
-	text-align: right;
-	font-style: italic;
-	padding-right: 10px;
-}
-
-footer a{
-	text-decoration: none;
-	color: white;
-}
-
-footer a:hover{
-	text-decoration: underline;
+.content{
+	flex: 1 0 auto;
 }
 
 html{
 	overflow-x: hidden;
-	
 }
 
 .hobby-img{
