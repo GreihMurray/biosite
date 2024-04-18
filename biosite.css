@@ -3,8 +3,12 @@
 }
 
 .card-content p{
-	width: 80%;
 	word-break: normal;
+	text-align: center;
+}
+
+body{
+	margin: 0;
 }
 
 .card-title{
@@ -14,6 +18,7 @@
 	color: white;
 	font-weight: 400;
 	border-bottom: 2px solid black;
+	padding: 10px;
 }
 
 #navbar{
@@ -32,7 +37,7 @@
 }
 
 #navbar a:hover{
-	background-color: #006E14;
+	background-color: #6E5F00;
 	color: white;
 }
 
@@ -99,15 +104,38 @@ html{
 	
 }
 
-#hobby-img{
-	width: 200px;
-	height: 200px;
-	display: inline-block;
+.hobby-img{
+	width: 300px;
+	height: 250px;
+}
+
+.hobby-div{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	margin: 15px;
+}
+
+.hobby-text{
+	text-align: left;
+}
+
+.bio-pic{
+	margin-top: 2%;
+	width: 350px;
+	height: 450px;
+}
+
+.bio-text{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .card-content li{
 	margin: auto;
-	width: 80%;
+	width: 100%;
 }
 
 .card-content li p{
@@ -119,15 +147,25 @@ html{
 	text-align: center;
 }
 
-#gallery{
+.gallery{
+	width: 80%;
+	margin: auto;
 	margin-top: 10%;
 	display: grid;
-	grid-template-columns: 30% 30% 30%;
+	grid-template-columns: 33% 33% 33%;
 }
 
-#grid-item img{
-	height: 300px;
-	width: 300px;
+figcaption{
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	font-style: italic;
+	font-size: 0.75 rem;
+}
+
+.index-img{
+	width: 200px;
+	height: 200px;
 }
 
 h2{
